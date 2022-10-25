@@ -1,0 +1,32 @@
+/* Regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col"]{
+    background-color: blue;
+    border: solid 1px black;
+    min-height: 30px;
+}
+/* Header */
+.header{
+    width: 100%;
+    background-color: gray;
+}
+/* Start Boostrap */
+.green{
+    background-color: green;
+}
+.col-8{
+    padding: 30px 0;
+}
+
+.col-8 i{
+    font-size: 200px;
+}
+
+.col3{
+    width: calc(100% / 3);
+}
