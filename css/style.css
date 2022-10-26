@@ -6,24 +6,49 @@
 }
 
 [class*="col"]{
-    background-color: blue;
+    /* DEBUG */
+    /* background-color: blue; */
     border: solid 1px black;
     min-height: 30px;
 }
 /* Header */
 .header{
     width: 100%;
-    background-color: gray;
+    height: 60px;
+    background-color: #2c3e50;
+}
+
+.header .col-6{
+    color: white
 }
 /* Start Boostrap */
+
+main{
+    height: calc(100% - 60px);
+}
+
 .green{
-    background-color: green;
+    background-color: #1abc9c;
 }
-.col-8{
+
+.green .col-8{
     padding: 30px 0;
+    color: white;
 }
 
-.col-8 i{
-    font-size: 200px;
+.col-8 img{
+    width: 40%;
+    padding: 10px 0;
 }
 
+.green .icon div{
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    margin-bottom: 2px;
+    background-color:white;
+}
+
+.green .icon i{
+    padding: 0 15px;
+}
