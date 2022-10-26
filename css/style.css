@@ -21,13 +21,14 @@
 .header .col-6{
     color: white
 }
-/* Start Boostrap */
 
-main{
-    height: calc(100% - 60px);
+.header .collapse.navbar-collapse#navbarNav#ms_navbar{
+    justify-content: end;
 }
 
+/* Start Boostrap */
 .green{
+    margin-top: 60px;
     background-color: #1abc9c;
 }
 
@@ -51,4 +52,22 @@ main{
 
 .green .icon i{
     padding: 0 15px;
+}
+
+/* Portfolio*/
+.portfolio .icon div{
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    margin-bottom: 2px;
+    color: black;
+}
+
+.portfolio .row.ms_img{
+    margin-top: 10px;
+}
+
+.portfolio .row.ms_img img{
+    width: 60%;
+    padding: 10px 0;
 }
