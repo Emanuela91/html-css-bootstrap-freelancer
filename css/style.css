@@ -22,8 +22,19 @@
     color: white
 }
 
-{
-    justify-content: end;
+
+.navbar-expand-lg .navbar-collapse.mn_navbar{
+    justify-content: center;
+    color: white;
+}
+
+.d-flex{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.d-flex li{
+    padding-right: 10px;
 }
 
 /* Start Boostrap */
