@@ -22,7 +22,6 @@
     color: white
 }
 
-
 .navbar-expand-lg .navbar-collapse.mn_navbar{
     justify-content: center;
     color: white;
@@ -36,6 +35,7 @@
 .d-flex li{
     padding-right: 10px;
 }
+
 
 /* Start Boostrap */
 .green{
@@ -65,13 +65,14 @@
     padding: 0 15px;
 }
 
+
 /* Portfolio*/
 .portfolio .icon div{
     display: inline-block;
     width: 30%;
     height: 4px;
     margin-bottom: 2px;
-    color: black;
+    background-color: black;
 }
 
 .portfolio .row.ms_img{
@@ -81,4 +82,22 @@
 .portfolio .row.ms_img img{
     width: 60%;
     padding: 10px 0;
+}
+
+
+/* About */
+section.green div.col-4 div.icon i{
+    color: white;
+}
+
+div.col-4 i{
+    color: white;
+    padding-right: 5px;
+}
+
+div.col-4 a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid white;
 }
