@@ -75,6 +75,11 @@
     background-color: black;
 }
 
+.portfolio div.col-4 i{
+    color: black;
+    padding: 15px;
+}
+
 .portfolio .row.ms_img{
     margin-top: 10px;
 }
@@ -86,6 +91,10 @@
 
 
 /* About */
+.green div.col-4 h2{
+    color: white;
+}
+
 section.green div.col-4 div.icon i{
     color: white;
 }
@@ -100,4 +109,40 @@ div.col-4 a{
     text-decoration: none;
     padding: 3px 10px;
     border: 1px solid white;
+}
+
+
+/* Contact me */
+section.contact{
+    margin-top: 20px;
+}
+
+.contact div.col-12 .icon div{
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    margin-bottom: 2px;
+    background-color: black;
+}
+
+.contact div.col-12 .icon i{
+    padding: 0 15px;
+}
+
+.contatto input#floatingInput{
+    border: none;
+}
+
+.contatto textarea#floatingTextarea{
+    border: none;
+}
+
+.contatto button{
+    margin: 15px 0;
+    background-color: #1abc9c;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    float: left;
 }
